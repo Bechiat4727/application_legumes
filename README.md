@@ -1,20 +1,53 @@
-HEAD
-# devoire
+# App Vente de Légumes et Fruits
 
-A new Flutter project.
+**App Vente** est une application Flutter simple pour gérer les ventes de fruits et légumes.  
+Elle permet de suivre les produits ajoutés, leur quantité et le total des ventes en temps réel.
 
-## Getting Started
+## Fonctionnalités
 
-This project is a starting point for a Flutter application.
+- Sélection entre **Fruits** et **Légumes**.
+- Ajouter et enlever des produits en un clic.
+- Affichage dynamique de la quantité de chaque produit et du total des ventes.
+- Interface simple et intuitive avec images des produits.
 
-A few resources to get you started if this is your first Flutter project:
+## Produits disponibles
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Fruits
+- Apple
+- Lemon
+- Mango
+- Strawberry
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Légumes
+- Onion
+- Potato
+- Garlic
+- Pepper
 
-# application_legumes
-bbb54faabda51df548624c650615a26f80d5c261
+## Installation et lancement
+
+1. Cloner le dépôt :
+```bash
+git clone https://github.com/Bechiat4727/app_legumes.git
+```
+2. Aller dans le dossier du projet :
+```bash
+cd app_legumes
+```
+3. Installer les dépendances Flutter :
+```bash
+flutter pub get
+```
+4. Lancer l’application (Chrome, mobile ou autre) :
+```bash
+flutter run
+```
+> ⚠️ Assurez-vous que les images des produits se trouvent dans le dossier  img/ 
+
+
+## Technologies utilisées :
+ - Flutter (mobile et web)
+ - Dart
+
+## Auteur :
+  Bechiat4727
